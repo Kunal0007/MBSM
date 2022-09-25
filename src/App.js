@@ -5,9 +5,9 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Header from './Header';
-import Home from './Home';
-import Navbar from './navbar'
+import Header from './components/Header';
+import Home from './screens/home/Home';
+import CustomNavbar from './components/CustomNavbar'
 
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Header />
-        <Navbar />
+        <CustomNavbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
         </Routes>

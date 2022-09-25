@@ -1,0 +1,21 @@
+#basic-nav-dropdown {
+  color: white;
+}
+.navbar {
+  padding: 0;
+}
+.navItem {
+  color: white;
+}
+.navItem:hover {
+  background-color: #86003e;
+  color: white;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
