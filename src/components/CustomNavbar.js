@@ -21,12 +21,13 @@ const CustomNavbar = () => {
         expand="lg"
         style={{
           backgroundImage: "linear-gradient(180deg, #D8381A 3%, #BF0B5E 91%)",
+          height:60
         }}
       >
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto navcus">
               <Nav.Link className="navItem" href="#home">
                 Home
               </Nav.Link>
@@ -36,12 +37,13 @@ const CustomNavbar = () => {
                 title="About Us"
                 id="basic-nav-dropdown"
               >
-                <ul className="dropdownUl">
-                  <li>Home</li>
-                  <li>Home1</li>
-                  <li>Home2</li>
-                  <li>Home3</li>
-                </ul>
+                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="navItem" href="#events">
                 Events
