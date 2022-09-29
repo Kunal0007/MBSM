@@ -1,0 +1,37 @@
+#basic-nav-dropdown {
+  color: white;
+}
+#basic-navbar-nav{
+    height: 100%;
+}
+.container{
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+   margin-left: 60px;
+}
+.navbar {
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.navItem {
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+.navItem:hover {
+  background-color: #86003e;
+  color: white;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
