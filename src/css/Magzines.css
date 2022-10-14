@@ -1,0 +1,15 @@
+.main {
+    margin: 2rem 5rem;
+}
+
+.heading {
+    text-align: center;
+    padding: 1rem;
+}
+
+.magzine {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: space-evenly;  
+    row-gap: 1rem;
+}
