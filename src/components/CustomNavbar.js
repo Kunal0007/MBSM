@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 import "../components/CustomNavbarStyle.css";
 
 const CustomNavbar = () => {
@@ -21,14 +22,14 @@ const CustomNavbar = () => {
         expand="lg"
         style={{
           backgroundImage: "linear-gradient(180deg, #D8381A 3%, #BF0B5E 91%)",
-          height:60
+          height: 60
         }}
       >
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto navcus">
-              <Nav.Link className="navItem" href="#home">
+              <Nav.Link className="navItem" href="/">
                 Home
               </Nav.Link>
               <NavDropdown
@@ -37,12 +38,14 @@ const CustomNavbar = () => {
                 title="About Us"
                 id="basic-nav-dropdown"
               >
-                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
-                  Another action
+                  Introduction
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
-                  Something
+                  History
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Vission & Mission
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="navItem" href="#events">
@@ -55,14 +58,7 @@ const CustomNavbar = () => {
                 renderMenuOnMount={true}
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.1">Executive committee</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown
                 className="navItem"
@@ -70,65 +66,25 @@ const CustomNavbar = () => {
                 renderMenuOnMount={true}
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+
+                <NavDropdown.Item><Link to="/publication/magzines"> Magzines </Link></NavDropdown.Item>
+
                 <NavDropdown.Item href="#action/3.2">
-                  Another action
+                  Question papers for schools
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown
-                className="navItem"
-                title="Organiztional Structure"
-                renderMenuOnMount={true}
-                id="basic-nav-dropdown"
-              >
-                <NavDropdown.Item href="#action/3.1">Archives</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
+                  Books
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                  Research Papers
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown
-                className="navItem"
-                title="Resource Centre"
-                renderMenuOnMount={true}
-                id="basic-nav-dropdown"
-              >
-                <NavDropdown.Item href="#action/3.1">
-                  Resource Centre
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link className="navItem" href="#contact">
-                Contact Us
-              </Nav.Link>
               <Nav.Link className="navItem" href="#join">
                 Join BSM
               </Nav.Link>
-              <Nav.Link className="navItem" href="#login">
+              {/* <Nav.Link className="navItem" href="#login">
                 Login
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
