@@ -7,6 +7,7 @@ import {
 import Header from './components/Header';
 import Home from './screens/home/Home';
 import CustomNavbar from './components/CustomNavbar'
+import Magzines from './components/publication/Magzines';
 
 
 const App = () => {
@@ -17,6 +18,9 @@ const App = () => {
         <CustomNavbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/publication/magzines" element={<Magzines />}></Route>
         </Routes>
       </BrowserRouter>
     </>
