@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mbsm/static/css/main.37f529f0.css",
+    "main.js": "/mbsm/static/js/main.0f2d72a1.js",
+    "index.html": "/mbsm/index.html",
+    "main.37f529f0.css.map": "/mbsm/static/css/main.37f529f0.css.map",
+    "main.0f2d72a1.js.map": "/mbsm/static/js/main.0f2d72a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37f529f0.css",
+    "static/js/main.0f2d72a1.js"
+  ]
+}
