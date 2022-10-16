@@ -1,0 +1,199 @@
+.home{
+  width: 100%;
+}
+.intro {
+  padding: 30px 0px;
+  width: 76%;
+  margin: auto;
+}
+.title {
+  font-size: 28px;
+  color: #2c98d7;
+  font-weight: bold;
+}
+.gatvidhi{
+  width: 100%;
+  padding: 30px 12%;
+  display: flex;
+ flex-direction: column;
+}
+.gatvidhiDiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.gatvidhiCardDiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.cardtext{
+  position: absolute;
+  height: 90%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  bottom: 0;
+  padding: 10px;
+  padding-top: 5px;
+}
+.cardtext p {
+ margin: 0;
+ margin-bottom: 10px;
+}
+.gatvidhi h3{
+  font-size: 28px;
+  font-weight: bold;
+}
+.gatvishiCard{
+  height: 230px;
+  width: 230px;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: white;
+  margin: 10px;
+}
+.gatvidhiLogo{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  align-self: center;
+  margin: auto;
+}
+.logoDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.perks {
+  width: 100%;
+  background-image: radial-gradient(at top right, #86003e 50%, #aa4b06e6 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.perkItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 60px;
+}
+.perkItem p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: white;
+}
+.perkItem h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+.eventAndNews {
+  width: 76%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 700px;
+}
+.events {
+  flex-basis: 63%;
+}
+.update {
+  flex-basis: 35%;
+}
+.footer{
+  background-color: #4e3e3e;
+}
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 50px 10%;
+}
+.footerInfo1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+}
+.footerInfo2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  margin-left: 30px;
+}
+.footerTabs {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.footerTabs a{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.footer h3 {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.copyRight{
+  width: 100%;
+  background-color: #333333;
+  padding: 50px 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyRight p{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 16;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .events {
+    flex-basis: 100%;
+  }
+  .update {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  .eventAndNews {
+    width: 90%;
+  }
+  .intro {
+    width: 90%;
+  }
+  .footerInfo1{
+    flex-basis: 100%;
+  }
+  .footerInfo2{
+    flex-basis: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
