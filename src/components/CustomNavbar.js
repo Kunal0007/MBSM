@@ -42,9 +42,6 @@ const CustomNavbar = () => {
                   Vission & Mission
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link className="navItem" href="#events">
-                Events
-              </Nav.Link>
               <NavDropdown                
                 title="Organiztional Structure"                
                 id="collasible-nav-dropdown"
