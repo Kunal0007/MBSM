@@ -14,8 +14,6 @@ const App = () => {
         <CustomNavbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-        </Routes>
-        <Routes>
           <Route path="/publication/magzines" element={<Magzines />}></Route>
         </Routes>
         <Footer />
