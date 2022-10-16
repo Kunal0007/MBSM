@@ -1,5 +1,5 @@
 .header1 {
-  display: "flex";
+  display: flex;
   width: 100%;
   justify-content: center;
   flex-direction: row;
