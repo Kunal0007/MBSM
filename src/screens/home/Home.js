@@ -76,13 +76,15 @@ const Home = () => {
         </Card>
         <Card className="update">
           <Card.Header as="h5">Latest Updates</Card.Header>
-          <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>                
-              </Swiper>
-          <Card.Body>             
+          <Swiper pagination={{
+            clickable: true,
+          }} modules={[Pagination]} className="mySwiper">
+            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+          </Swiper>
+          <Card.Body>
             <Card.Title>Special title treatment</Card.Title>
             <Card.Text>
               With supporting text below as a natural lead-in to additional
