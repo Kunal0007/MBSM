@@ -4,19 +4,13 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link } from "react-router-dom";
 import "../components/CustomNavbarStyle.css";
 
-const CustomNavbar = () => {
-  // const [show, setShow] = useState(false);
-  // const [show1, setShow1] = useState(false);
-  // const [show2, setShow2] = useState(false);
-  // const [show3, setShow3] = useState(false);
-  // const [show4, setShow4] = useState(false);
+const CustomNavbar = () => {  
 
   return (
     <div>
-      <Navbar
+      <Navbar collapseOnSelect
         bg="dark"
         variant="dark"
         expand="lg"
@@ -26,17 +20,17 @@ const CustomNavbar = () => {
         }}
       >
         <Container>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto navcus">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto" style={{
+              backgroundImage: "linear-gradient(180deg, #D8381A 3%, #BF0B5E 91%)",
+            }}>
               <Nav.Link className="navItem" href="/">
                 Home
               </Nav.Link>
-              <NavDropdown
-                renderMenuOnMount={true}
-                className="navItem"
+              <NavDropdown                                
                 title="About Us"
-                id="basic-nav-dropdown"
+                id="collasible-nav-dropdown"
               >
                 <NavDropdown.Item href="#action/3.2">
                   Introduction
@@ -51,24 +45,17 @@ const CustomNavbar = () => {
               <Nav.Link className="navItem" href="#events">
                 Events
               </Nav.Link>
-
-              <NavDropdown
-                className="navItem"
-                title="Organiztional Structure"
-                renderMenuOnMount={true}
-                id="basic-nav-dropdown"
+              <NavDropdown                
+                title="Organiztional Structure"                
+                id="collasible-nav-dropdown"
               >
                 <NavDropdown.Item href="#action/3.1">Executive committee</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown
-                className="navItem"
-                title="Publication"
-                renderMenuOnMount={true}
-                id="basic-nav-dropdown"
+              <NavDropdown                
+                title="Publication"                
+                id="collasible-nav-dropdown"
               >
-
-                <NavDropdown.Item><Link to="/publication/magzines"> Magzines </Link></NavDropdown.Item>
-
+                <NavDropdown.Item href="/publication/magzines"> Magzines </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Question papers for schools
                 </NavDropdown.Item>
@@ -80,11 +67,8 @@ const CustomNavbar = () => {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="navItem" href="#join">
-                Join BSM
+                Join MBSM
               </Nav.Link>
-              {/* <Nav.Link className="navItem" href="#login">
-                Login
-              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
