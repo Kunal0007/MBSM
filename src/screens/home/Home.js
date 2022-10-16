@@ -9,6 +9,18 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Gatvidhi from "../../components/home/Gatvidhi";
 import "../../css/Home.css";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import "./styles.css";
+
+// import required modules
+import { Pagination } from "swiper";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -64,7 +76,13 @@ const Home = () => {
         </Card>
         <Card className="update">
           <Card.Header as="h5">Latest Updates</Card.Header>
-          <Card.Body>
+          <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+                <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
+                <SwiperSlide>Slide 4</SwiperSlide>                
+              </Swiper>
+          <Card.Body>             
             <Card.Title>Special title treatment</Card.Title>
             <Card.Text>
               With supporting text below as a natural lead-in to additional
@@ -74,7 +92,7 @@ const Home = () => {
           </Card.Body>
         </Card>
       </div>
-     <Gatvidhi />
+      <Gatvidhi />
       <div className="footer">
         <div className="footerContent">
           <div className="footerInfo1">
@@ -91,11 +109,11 @@ const Home = () => {
           <div className="footerInfo2">
             <h3>Get Started</h3>
             <ul className="footerTabs">
-              <a href="#">About Us</a>
-              <a href="#">Events</a>
-              <a href="#">Organization Structure</a>
-              <a href="#">Publication</a>
-              <a href="#">Join BSM</a>
+              <Link href="#">About Us</Link>
+              <Link href="#">Events</Link>
+              <Link href="#">Organization Structure</Link>
+              <Link href="#">Publication</Link>
+              <Link href="#">Join BSM</Link>
             </ul>
           </div>
         </div>

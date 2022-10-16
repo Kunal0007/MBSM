@@ -35,6 +35,7 @@ const gatvidhi = [
     img: rect3,
   },
 ];
+
 export default function Gatvidhi() {
   return (
     <div className="gatvidhiDiv">
@@ -44,10 +45,10 @@ export default function Gatvidhi() {
           {gatvidhi.map((item, index) => {
             return (
               <div key={index} className="gatvishiCard">
-                <img style={{ width: "100%" }} src={item.img} />
+                <img style={{ width: "100%" }} src={item.img} alt=""/>
                 <div className="cardtext">
                   <div className="logoDiv">
-                    <img src={item.imglogo} className="gatvidhiLogo" />
+                    <img src={item.imglogo} className="gatvidhiLogo" alt=""/>
                   </div>
                   <p>
                     {getWordCount(item.content) > 9
