@@ -22,7 +22,6 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import { Link } from "react-router-dom";
 
-
 const Home = () => {
   return (
     <div className="home">
@@ -76,10 +75,14 @@ const Home = () => {
         </Card>
         <Card className="update">
           <Card.Header as="h5">Latest Updates</Card.Header>
-          <Swiper pagination={{
-            clickable: true,
-          }} modules={[Pagination]} className="mySwiper">
-            <SwiperSlide>Slide 1</SwiperSlide>
+          <Swiper
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide></SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>
             <SwiperSlide>Slide 3</SwiperSlide>
             <SwiperSlide>Slide 4</SwiperSlide>
@@ -95,7 +98,6 @@ const Home = () => {
         </Card>
       </div>
       <Gatvidhi />
-     
     </div>
   );
 };
