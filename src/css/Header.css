@@ -1,0 +1,29 @@
+.header1 {
+  display: "flex";
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.textLogo {
+  max-width: 348px;
+  height: 80px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .textLogo {
+    width: 100%;
+  }
+  .imgLogo {
+    width: "100%";
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+  }
+}
