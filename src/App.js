@@ -1,14 +1,10 @@
-import React from 'react'
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from 'react-router-dom';
-import Header from './components/Header';
-import Home from './screens/home/Home';
-import CustomNavbar from './components/CustomNavbar'
-import Magzines from './components/publication/Magzines';
-
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./screens/home/Home";
+import CustomNavbar from "./components/CustomNavbar";
+import Magzines from "./components/publication/Magzines";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -22,9 +18,10 @@ const App = () => {
         <Routes>
           <Route path="/publication/magzines" element={<Magzines />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
