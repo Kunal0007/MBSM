@@ -1,13 +1,37 @@
 .header1 {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
+justify-content: space-around;
 }
 .textLogo {
   max-width: 348px;
   height: 80px;
+}
+.title{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin: 10px;
+}
+.title h2{
+  font-weight: bold;
+color: #D8381A;
+}
+.title h5{
+  color: #86003e;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+
+}
+.address p{
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 

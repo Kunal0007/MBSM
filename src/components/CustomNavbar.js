@@ -48,10 +48,6 @@ const CustomNavbar = () => {
                   Vission & Mission
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link className="navItem" href="#events">
-                Events
-              </Nav.Link>
-
               <NavDropdown
                 className="navItem"
                 title="Organiztional Structure"

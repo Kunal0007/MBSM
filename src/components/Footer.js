@@ -6,15 +6,14 @@ export default function Footer() {
     <div className="footer">
         <div className="footerContent">
           <div className="footerInfo1">
-            <h3>Bharatiya Shikshan Mandal</h3>
+            <h3>Maharashtra Bharatiya Shikshan Mandal</h3>
             <p>
-              Sheshadri Sadan, Tulsibag Marg, Mahal, Nagpur – 440032, Bharat.
+            189 Ashish Charkop Mumbai-400067, Bharat.
             </p>
             <p>
               RFRF- Knowledge Resource Center Kanad, Behind NEERI, Opposite
               Baljagat Main Gate, Laxminagar, Nagpur 440020, Bharat
             </p>
-            <h3 style={{ fontWeight: "bolder" }}>Follow Us</h3>
           </div>
           <div className="footerInfo2">
             <h3>Get Started</h3>
