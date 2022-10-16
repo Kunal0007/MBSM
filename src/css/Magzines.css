@@ -9,7 +9,7 @@
 
 .magzine {
     display: grid;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(4, 280px);
     justify-content: space-evenly;  
-    row-gap: 1rem;
+    row-gap: 3rem;
 }
