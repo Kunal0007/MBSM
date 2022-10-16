@@ -8,17 +8,17 @@ justify-content: space-around;
   max-width: 348px;
   height: 80px;
 }
-.title{
+.titleHeader{
 display: flex;
 flex-direction: column;
 text-align: center;
 margin: 10px;
 }
-.title h2{
+.titleHeader h2{
   font-weight: bold;
 color: #D8381A;
 }
-.title h5{
+.titleHeader h5{
   color: #86003e;
 }
 .address{

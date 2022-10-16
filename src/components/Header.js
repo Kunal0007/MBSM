@@ -17,7 +17,7 @@ const Header = () => {
         />
       {/* </a>
       </div> */}
-    <div className="title">
+    <div className="titleHeader">
       <h2>महाराष्ट्र भारतीय शिक्षण मंडळ</h2>
       <h5>Maharashtra Bhartiya Shiksan Mandal</h5>
     </div>
