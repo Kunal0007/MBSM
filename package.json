@@ -1,6 +1,5 @@
 {
-  "name": "mbsm",
-  "homepage": "https://Kunal0007.github.io/mbsm",
+  "name": "mbsm",  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,9 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },
-  "scripts": {
-    "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build",
+  "scripts": {    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

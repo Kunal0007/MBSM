@@ -13,7 +13,7 @@ import Magzines from './components/publication/Magzines';
 const App = () => {
   return (
     <>
-      <BrowserRouter basename='https://Kunal0007.github.io/mbsm'>
+      <BrowserRouter>
         <Header />
         <CustomNavbar />
         <Routes>
