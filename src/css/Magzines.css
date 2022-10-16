@@ -1,5 +1,5 @@
 .main {
-    margin: 2rem 5rem;
+    margin: 2rem 2rem;
 }
 
 .heading {
@@ -9,7 +9,32 @@
 
 .magzine {
     display: grid;
-    grid-template-columns: repeat(4, 280px);
+    grid-template-columns: repeat(1, 280px);
     justify-content: space-evenly;  
     row-gap: 3rem;
+}
+
+@media screen and (min-width: 480px) {
+    .magzine {
+        grid-template-columns: repeat(2, 260px);
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .magzine {
+        grid-template-columns: repeat(3, 280px);
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .magzine {
+        grid-template-columns: repeat(4, 280px);
+        justify-content: space-evenly;
+    }
+
+    .main {
+        margin: 2rem 5rem;
+    }
 }
