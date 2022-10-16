@@ -20,7 +20,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 const Home = () => {
