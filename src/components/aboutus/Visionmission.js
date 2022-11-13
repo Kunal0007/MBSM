@@ -1,0 +1,24 @@
+import React from 'react'
+
+const Mission = () => {
+    return (
+        <div className="mission">
+            <div>
+                <img width="1600" height="300" src="http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision.jpg" class="attachment-full size-full" alt="" loading="lazy" srcset="http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision.jpg 1600w, http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision-1536x288.jpg 1536w, http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision-600x113.jpg 600w" sizes="(max-width: 1600px) 100vw, 1600px" />
+            </div>
+            <div className="content">
+                <div className="mission_head">
+                    <h2>The Goals of the Organization</h2>
+                </div>
+                <div className='details'>
+                    <p>The goal of the education should be ‘ The holistic personality development of students in the context of the national resurgence. Indian culture should be reflected from the personality of the students. All the members of the teaching fraternity such as the teachers, the administrators of the alma-maters, and the parents should get involved in this activity. We do not need to perform the task of reconstruction of the Rashtra, only reawakening is needed.</p>
+                    <p>Efforts for the realization of an ideal social system have been realized in our country for the last several millennia. The reign of the Dharma has been established several times in this land. A peaceful society based on dharma has been leading a life imbued with communion, for hundreds of years. Whenever the Dharma declined in our nation either due to our own complacence or the brunt of the external attacks, and the society forgot its own identity, then re-establishment of Dharma and resuscitation was witnessed in the nation. Then the creation of an ideal society got effected. It has become essential to reiterate this noble work. The elevation of the national glory will be possible only through the rousing of the society. The ancient, eternal tenets will serve as the foundation for the redevelopment of the social structure. This ancient principle is the base of Indianism. Hence it is necessary to couple the prefix ‘re’ with awakening, development and elevation.</p>
+                    <p>Various types of work are expected for restoring the national prestige. The most basic of that work encapsulates all the activities required for the re-creation of the educational system and comes within the purview of the Bhartiya Shiksha Mandal. It is very necessary that the educational system of Bharat be nourished by her philosophical, historical and cultural realizations so as to enable us to generate a powerful, prosperous, holistic and relevant nation. The objectives, policies, study material and the structure of education should be completely Bhartiya. Bhartiya Shiksha Mandal aspires at developing such a completely Bhartiya educational system. Hence for fructifying our goal it has become imperative for us to develop a model of an ideal educational system as well as augment the element of Indianness in the present education pattern. The present educational system is entirely contrary to Indianness. It is essential to effect improvements in it, but introducing a few corrective modifications will not yield substantial results. Hence we have to start working for developing an ideal system which will produce totally Indian basic contemplative processes. These two types of activities will go on in tandem. Research, contemplative analysis, experimentation and discussions are necessary, along with that we have to make efforts to incorporate Indian ethos into the present educational policies, study materials and the basic infrastructure. All the changes occurring in India are mostly decentralized and multidimensional. The Bhartiya procedure does not favour an abrupt change by the passing of a legislation. The change brought about by the Bhartiya method proceed from bottom to top in contrast to the changes proceeding from the top to the bottom, brought about by bureaucratic edicts. Thus we shall not merely keep talking about ideals. Whatever changes are possible, will certainly be effected by us. Various efforts like this are already going on. The Mandal aims at chronicling these kind of efforts.</p>
+                    <p>The goal of the Bhartiya Shiksha Mandal can be aptly expressed by the following sentence ‘ The goal is the resurgence of the nation by performing the activities of research, intellectual enlightenment training, publication and systematization for developing an integral educational system from the primary to the higher levels and that should be based on Bhartiya values, nurtured by Bhartiya culture and be Bharat-centric.</p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Mission

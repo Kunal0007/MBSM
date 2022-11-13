@@ -32,13 +32,13 @@ const CustomNavbar = () => {
                 title="About Us"
                 id="collasible-nav-dropdown"
               >
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/aboutus/introduction">
                   Introduction
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/aboutus/history">
                   History
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/aboutus/missionvision">
+                <NavDropdown.Item href="/aboutus/vision&mission">
                   Vision & Mission
                 </NavDropdown.Item>
               </NavDropdown>
