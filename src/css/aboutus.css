@@ -1,0 +1,26 @@
+.history {
+    margin-left: 3rem;
+}
+
+.history_head {
+    padding: 3rem 10rem;
+    color: #1D92D6;
+}
+
+.details {
+    margin: 0 10rem;
+    font-size: medium;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.mission_head {
+    padding: 3rem 10rem;
+    color: #1D92D6;
+}
+
+.subtitle {
+    font-weight: 600;
+    color: #A10F33;
+    font-size: 1.25rem;
+}

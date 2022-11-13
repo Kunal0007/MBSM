@@ -2,6 +2,8 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import publication from "../../assets/images/publication.jpeg";
 import research from "../../assets/images/research.jpeg";
+import img1 from "../../assets/images/img1.jpg";
+import img2 from "../../assets/images/img2.jpg";
 
 export default function Slider() {
   return (
@@ -24,6 +26,14 @@ export default function Slider() {
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={research} alt="Second slide" />
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" height="613px" src={img1} alt="Second slide" />
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" height="613px" src={img2} alt="Second slide" />
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
       </Carousel>
