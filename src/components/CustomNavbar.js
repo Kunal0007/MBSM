@@ -35,11 +35,11 @@ const CustomNavbar = () => {
                 <NavDropdown.Item href="#action/3.2">
                   Introduction
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="/aboutus/history">
                   History
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Vission & Mission
+                <NavDropdown.Item href="/aboutus/missionvision">
+                  Vision & Mission
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown                
