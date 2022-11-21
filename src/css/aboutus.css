@@ -1,21 +1,26 @@
 .history {
-    margin-left: 3rem;
+    margin: 0 1.5rem;
 }
 
 .history_head {
-    padding: 3rem 10rem;
     color: #1D92D6;
 }
 
 .details {
-    margin: 0 10rem;
     font-size: medium;
     text-align: justify;
     font-weight: 400;
 }
 
 .mission_head {
+    color: #1D92D6;
+}
+
+.content {
     padding: 3rem 10rem;
+}
+
+.intro_head {
     color: #1D92D6;
 }
 
@@ -23,4 +28,27 @@
     font-weight: 600;
     color: #A10F33;
     font-size: 1.25rem;
+}
+
+.cards {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    border-style: solid;
+    border-radius: 2rem;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    border-style: solid;
+    border-radius: 2rem;
 }
