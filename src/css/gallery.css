@@ -1,0 +1,120 @@
+.main{
+    position: relative;
+    height: min-content;
+    margin-bottom: 2rem;
+    height: 4260px;
+    overflow-x: hidden
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  }
+  
+
+.photoGalleryB {
+    position: absolute;
+    top: 14px;
+    left: 520px;
+    font-size: 55px;
+    display: inline-block;
+    font-family: var(--font-ubuntu);
+    color: var(--color-black);
+}
+
+.rectangleIcon,
+.rectangleIcon1,
+.rectangleIcon2 {
+    position: absolute;
+    top: 149px;
+    left: 30px;
+    width: 675px;
+    height: 434px;
+    object-fit: cover;
+}
+
+.rectangleIcon1,
+.rectangleIcon2 {
+    top: 530px;
+    left: 735px;
+}
+
+.rectangleIcon2 {
+    top: 903px;
+    left: 30px;
+}
+
+.rectangleIcon3,
+.rectangleIcon4,
+.rectangleIcon5,
+.rectangleIcon6 {
+    position: absolute;
+    top: 1284px;
+    left: 735px;
+    width: 675px;
+    height: 434px;
+    object-fit: cover;
+}
+
+.rectangleIcon4,
+.rectangleIcon5,
+.rectangleIcon6 {
+    top: 1657px;
+    left: 40px;
+}
+
+.rectangleIcon5,
+.rectangleIcon6 {
+    top: 2038px;
+    left: 744px;
+}
+
+.rectangleIcon6 {
+    top: 2411px;
+    left: 40px;
+}
+
+.rectangleIcon7,
+.rectangleIcon8,
+.rectangleIcon9 {
+    position: absolute;
+    top: 2902px;
+    left: 388px;
+    width: 1031px;
+    height: 345px;
+    object-fit: cover;
+}
+
+.rectangleIcon8,
+.rectangleIcon9 {
+    top: 3304px;
+    left: 40px;
+    width: 1194px;
+    height: 399px;
+}
+
+.rectangleIcon9 {
+    top: 3760px;
+    left: 225px;
+}
+
+.rectangleDiv2,
+.rectangleDiv3 {
+    position: absolute;
+    top: 594px;
+    left: 204px;
+    background-color: var(--color-white);
+    width: 62px;
+    height: 9px;
+}
+
+.rectangleDiv3 {
+    top: 687px;
+    left: 504px;
+}

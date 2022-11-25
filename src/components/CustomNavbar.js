@@ -63,6 +63,9 @@ const CustomNavbar = () => {
                   Research Papers
                 </NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link className="navItem" href="/gallery/photogallery">
+                Photo Gallery
+              </Nav.Link>
               <Nav.Link className="navItem" href="#join">
                 Join MBSM
               </Nav.Link>
