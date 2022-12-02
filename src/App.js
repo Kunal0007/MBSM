@@ -8,6 +8,7 @@ import Intro from "./components/aboutus/Introduction";
 import Mission from "./components/aboutus/Visionmission";
 import History from "./components/aboutus/History";
 import Footer from "./components/Footer";
+import PhotoGallery from "./components/gallery/PhotoGallery";
 
 const App = () => {
   return (
@@ -27,6 +28,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path="/aboutus/vision&mission" element={<Mission />}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/gallery/photogallery" element={<PhotoGallery/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
