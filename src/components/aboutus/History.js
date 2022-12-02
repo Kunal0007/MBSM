@@ -1,22 +1,52 @@
-import React from 'react'
-
+import React from "react";
 
 const History = () => {
-    return (
-        <div className="history">
-            <div>
-			    <img width="1536" height="288" src="http://www.bsmbharat.org/wp-content/uploads/2021/11/banner_history-1536x288-1.jpg" class="attachment-full size-full" alt="" loading="lazy" />		
-            </div>
-            <div className="content">
-            <div className="history_head">
-			    <h2>The Glorious history of the Shikshan Mandal</h2>
-			</div>
-            <div className='details'>
-                <p>Bhartiya Shiksha Mandal received the registration number F 1738 from the Charity Commissioner of Mumbai. A primary meeting was held in the house of Shri Sriram Mantri at Mumbai on Ramnavami 27th August. Mananeeya Balasaheb Deoras along with 25 educationists, was present in the meeting and rendered his guidance. Due to this, we observe Ramnavami as our foundation day.</p><p>A national seminar on the subject of Moral Education was organized at Pune in 1974. As a result of that seminar a universally applicable plan related to Moral Education was drawn up and its copies were dispatched to the State and Central government. This curriculum was implemented in the schools in some states.</p><p>A national seminar on 10+2+3 pattern by NCERT, was convened at Delhi in 1977. Bhartiya Shiksha Mandal’s representatives from 10 states participated in it. Numerous valuable suggestions of the Mandal were accepted.</p><p>Bhartiya Shiksha Mandal has undertaken the gigantic project of formulating a national education policy viewed at bringing about the necessary changes in our education pattern. This project was first initiated at a 3 day all India meeting of the Karyakartas at Nagpur in 1977. The meeting received guidance from Mananeeya Shri Balasaheb Deoras and Mananeeya Shri Rajju Bhaiya. A blueprint was formulated and on the basis of that a questionnaire was prepared. After translating into different languages of the state, it was sent to educationists and teachers. The questionnaire reached nearly 3000 people. A national seminar on this topic was convened at Delhi in 1971 and it received guidance from the Vice-President Sri B.D Jatti, Union Minister for education Mananeeya P.C Sundar, along with Mananeeya Bapuravji Moghe, Kedarnath Sahani, and various other eminent personalities. A detailed discussion on the booklet based on the primary plan and the feedback of the prepared questionnaire, was conducted and the national education policy acquired its final form.</p><p>The project ‘ Indianness in Education’ was initiated at a Abhyas Varga in Pune in 1980. A questionnaire was prepared and distributed among the educationists and teachers in all the states in India. It was accompanied by nearly 200 seminars and symposiums held in 100 districts. Seminars on this subject were held at Gwalior for the northern states and at Hyderabad for the southern states in 1983. Great Personalities like Padmashri Dr Vakankar, Union minister Shri P.Shivshankar, Swami Ranganathananda, Mananeeya Rajju Bhaiya, and Shri Dattopant Thengdi guided the proceedings of the meeting.</p><p>The first Akhil Bhartiya Abhyasa Varga was conducted at Pune in 1980. 150 Karyakartas from 12 states participated in this 5 day Abhyasa Varga. The chairman of the Vidhan Parishad Shri V.S Page, Controller of Education Shri V.V Chiplunkar and the eminent educationist Smt Chitra Naik guided the proceedings of the Varga.</p><p>New Education Policy 1986 : Bhartiya Shiksha Mandal actively entered into discussions at different levels, regarding the new educational policy,with the Central government. It is worth mentioning that out of the 12000 suggestions received by the Central government, 3000 were from those of Bhartiya Shikshan Mandal which had been prepared through discussions, seminars and speeches, at various levels,all over the country. A symposium on its methodology was held at Delhi and its proceedings were guided by Dr Murli Manohar Joshi, Prof. J.V Raghavan, Dr S.K Mitra, Dr Premkripalji, Shri Kishorilal Dandaniya, Mananeeya Rajubhaaiyaji and various other great personalities.</p><p>The Patrons committee of the Bhartiya Shikshan Mandal was created. Swami Chinmayananda[ Mumbai], Swami Ranganathananda, Dr K Ayyangar[Madras], Mananeeya Shri M.P Pandit[Pondicherry] were its members in the beginning. Later the Bhartiya Shikshan Mandal received the guidance from Shri T.N Seshan,Prof. Kirit Joshi, Prof V.K.R.V Rao[ Shiksha Mantri] provided their invaluable guidance to the Bhartiya Shikshan Mandal.</p><p>The second Akhil Bhartiya Abhyasa Varga was held at Bengaluru in 1985. Nearly 200 Karyakartas from 15 states in India participated in it. There was training of the Karyakartas along with discussions on the national outline of education, the treasure of the knowledge the Vedas and the Upanishads, the ill effects of the protection provided to the minority institutions and various other topics. Swami Chidananda, Dr V.K.R.V Rao, Mananeeya Dattopant Thengdi, George Menzes, Dr Nagendra and various other learned intellectuals provided their guidance to it.</p><p>Bhartiya Shikshan Mandal decided to hold a 6 point programme with an intention of inspiring the public in 1987.Meetings were organized were organized at 2000 places, on 28th March1989. The resolution regarding those 6 points, was passed and its copies were sent to the Chief Ministers of various states, Education Minister and the Prime Minister. The Education Ministers of Rajasthan and Maharashtra gave their written approval of it.</p><p>Bhartiya Shikshan Mandal organized an oration by Mananeeya Dattopant Thengdi on the topic ‘ Minority Education Institution and National unity’. Some portions of it were telecast on Doordarshan. The booklet based on this speech was published at Lucknow in East Uttar Pradesh.</p><p>Ram Murthy Commission invited the Bhartiya Shikshan Mandal to present their views about the blueprint of the national educational policy, which had been formulated by them. Bhartiya Shikshan Mandal provided their full assistance to it.</p><p>A one-day seminar was organized by the Maharashtra unit of the Bhartiya Shikshan Mandal in January 1992. The topic was ‘Nation and nationalism’ and the main orator was Mananeeya Shri Dattopant Thengdi. More than 50 Karyakartas attended the seminar. Mananeeya Madandasji and Dr Navalgundkarji were also present at the seminar independently.</p><p>The forum for women began working independently in 1993. The first national session was held at Kanpur in 2000. The total attendance from 20 states, was around 500. Among them were around 125 women.</p><p>Various programmes such as New year welcomes, competitions in fairs, exhibitions etc were organized for consolidating the movement in other states and reaching out to increased number of people. Programmes were carried out at schools in Kanpur in Uttar Pradesh and different cities in Rajasthan. Thousands of students and their guardians participated in those programmes. New year greetings competitions for the students were started in various cities of Maharashtra. Various programmes such as different competitions, get-togethers for parents, poetry reading were organized for a week in Kanpur and those were attended by thousands of people.</p><p>‘The school project’ was a significant achievement of that time. The educational institutions were needed to be connected with the Bhartiya Shiksha Mandal, with the objective of the developing the excellence of the teaching as well as the teachers. The school projects were organized in various places of Uttar Pradesh like Kanpur, Rajasthan and Maharashtra.</p><p>The Maharashtra unit of the Shikshan Mandal organized an exhibition on the topic, ‘ India’s contribution to Science'[ Ancient and —- times] and published the book based on that. It published calendars for 3 years. The Ujjain unit published the ‘ Personality development project- annual calendar’</p><p>A 3 day ‘Akhil Bharteeya Chintan[ reflection] Baithak’ was convened at Bhayandar in Mumbai[ Rambhau Mahalgi Prabhodhani] in April 2003. Mananeeya Dr Mohan Bhagwat who was attended it for one day. It was attended by around 25 to 30 people.</p><p>The ‘ Rashtriya Gyan Ayog’ [ National Knowledge Commission’ was set up by the Central government</p><p>in 2005. More than 36 seminars were organized all over the nation from 2006 to 2008. The annually published magazine ‘Ank Darshan’ was initiated in the year 2008-2009.</p><p>Seminars on the topic’ Indian education experts and their contribution’ were organized in more than 40 places to commemorate the birth centenary of Parampujya Sri Guruji. More than 100 eminent educationists attended it.</p><p>The second Rashtriya Adhiveshan of Bhartiya Shiksha Mandal was organized at Vishakapatnam in January 2007. The main topic of the Adhiveshan was ‘ Indianization of Education’. 700 representatives from 22 states all over the nation attended it. Mananeeya Shri Sudarshanji, Mananeeya Shri Sureshji Soni, Shri Gurumurthy, Shri Venkateshwaram, Dr Mohanlal Cheepa guided its proceedings. There were various programmes like publication of memorial edition and various other books and associated seminars.</p><p>Seminars on around 40 topics have been organized in the last 6 to 7 years. A chintan baithak[ thought- inducing meeting] was held at Nagpur in October 2010. It was attended by nearly 30 representatives and its proceedings were guided by Mananeeya Shri Sureshji Soni.</p><p>A special programme, for felicitating the Vice-Chancellors of the different universities in Maharashtra, was organized at Nagpur in September 2012.</p><p>The third Rashtriya Adhiveshan was organized at Nagpur in November-December 2012. It was attended by 1124 representatives from 168 districts of 20 states. The main topic was ‘ Education for sustainable development’. Its proceedings were guided by Mananeeya Sureshji Soni, Dr J.S Rajput, Param Poojneeya Shri Mohan Bhagwatji, Smt Archana Chitnis, and Shri Itmuddin Katdare.</p><p>Various programmes such as seminars, speeches, workshops and competitions were held all over the nation to commemorate the 150th birth anniversary of Swami Vivekananda. The Karyakartas of the Mandal handled important responsibilities in the main organizing committee. There was a national conference of the Vice-Chancellors of different universities at Delhi on 16-17 November 2013. It was attended by Vice-Chancellors of 89 universities. 247 representatives including the Vice- Chancellors and the Deans participated in it. The Mandal along with the other organizations associated with education, played an important role in setting up that conference.</p>
-            </div>
-            </div>
+  return (
+    <div className="history">
+      <div>
+      <img
+          width="100%"
+          height="300"
+          src="http://www.bsmbharat.org/wp-content/uploads/2021/11/banner_history-1536x288-1.jpg"
+          class="attachment-full size-full"
+          alt=""
+          loading="lazy"
+          srcset="http://www.bsmbharat.org/wp-content/uploads/2021/11/banner_history-1536x288-1.jpg"
+          sizes="(max-width: 1600px) 100vw, 1600px"
+        />
+      </div>
+      <div className="content">
+        <div className="history_head">
+          <h2>इतिहास</h2>
         </div>
-    )
-}
+        <div className="details">
+          <p>
+            शंकरराव ओगले, नानासाहेब भावे, मुकुंदराव कुलकर्णी, श्रीराम मंत्री इ.
+            शिक्षण क्षेत्रातील कार्यकर्त्यांनी 'भारतीय शिक्षण 'मासिक पत्रिका
+            चालू करण्याचे ठरविले. त्याप्रमाणे ऑगस्ट 1967 मध्ये पहिला अंक
+            प्रकाशित झाला. या अंकात मासिकाचा मुख्य उद्देश स्पष्ट केला. 1)
+            शिक्षणाचे भारतीयकरण 2)महाराष्ट्रातील शिक्षकाला त्याच्या प्रश्नाबद्दल
+            काही लिहायचे आहे, बोलायचे आहे. त्यासाठी त्याला व्यासपीठ पाहिजे आहे.
+            यासाठी या मासिकाचा जन्म झाला.
+          </p>
+          <p>
+            काही महिन्यात च अन्य प्रांतातील कार्यकर्ते एकत्र आले. समकालीन
+            शैक्षणिक प्रश्न समान असल्यामुळे हे व्यासपीठ अखिल भारतीय स्तरावर काम
+            करू शकेल असा विश्वास व्यक्त झाल्यामुळे भारतीय शिक्षण मंडळ ही संघटना
+            एप्रिल 1969 मध्ये मुंबई, अंधेरी येथे स्थापन केली. या संस्थेचा एक
+            उपक्रम म्हणून भारतीय शिक्षण मासिक कार्य करेल असेही ठरले. काल
+            परिस्थिती नुसार इ.1999-2000 मध्ये हे मासिक व अन्य शैक्षणिक उपक्रम
+            यासाठी महाराष्ट्र भारतीय शिक्षण शिक्षण मंडळ या संस्थेची स्वतंत्र पणे
+            नोंदणी करावी असा विचार केला गेला.
+          </p>
+          <p>
+            त्याप्रमाणे इ.2000 मध्ये पुणे धर्मादाय आयुक्तांकडे याबाबत अधिकृत पणे
+            नोंदणी करण्यात आली. व त्याचे नोंदणी कृत कार्यालय म्हणून पुणे
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default History
+export default History;
