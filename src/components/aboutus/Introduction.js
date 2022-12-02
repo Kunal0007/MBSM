@@ -4,10 +4,8 @@ import Card from "react-bootstrap/Card";
 const Intro = () => {
   return (
     <div>
-      <div>
+      <div className="head_img">
         <img
-          width="100%"
-          height="300"
           src="http://www.bsmbharat.org/wp-content/uploads/2021/02/banner_introduction.jpg"
           class="attachment-full size-full"
           alt=""
@@ -32,7 +30,7 @@ const Intro = () => {
           </p>
         </div>
         <div className="cards">
-          <Card style={{ width: "25rem" }}>
+          {/* <Card style={{ width: "25rem" }}>
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
@@ -101,24 +99,19 @@ const Intro = () => {
               <Card.Link href="#">Card Link</Card.Link>
               <Card.Link href="#">Another Link</Card.Link>
             </Card.Body>
-          </Card>
+          </Card> */}
         </div>
         <div className="img1">
           <img
-            width="1000"
-            height="617"
             src="http://www.bsmbharat.org/wp-content/uploads/2021/10/about_infographic.png"
             class="attachment-large size-large"
             alt=""
             loading="lazy"
             srcset="http://www.bsmbharat.org/wp-content/uploads/2021/10/about_infographic.png 1000w, http://www.bsmbharat.org/wp-content/uploads/2021/10/about_infographic-600x370.png 600w"
-            sizes="(max-width: 1000px) 100vw, 1000px"
           />
         </div>
         <div className="img2">
           <img
-            width="1024"
-            height="720"
             src="http://www.bsmbharat.org/wp-content/uploads/2021/10/about-us-image-1024x720.jpg"
             class="attachment-large size-large"
             alt=""

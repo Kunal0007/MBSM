@@ -5,8 +5,6 @@ const Mission = () => {
     <div className="mission">
       <div>
         <img
-          width="100%"
-          height="300"
           src="http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision.jpg"
           class="attachment-full size-full"
           alt=""

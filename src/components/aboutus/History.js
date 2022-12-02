@@ -5,8 +5,6 @@ const History = () => {
     <div className="history">
       <div>
       <img
-          width="100%"
-          height="300"
           src="http://www.bsmbharat.org/wp-content/uploads/2021/11/banner_history-1536x288-1.jpg"
           class="attachment-full size-full"
           alt=""
