@@ -119,7 +119,7 @@ const Magzines = () => {
                       return (
                         <Card
                           key={index}
-                          style={{ width: "18rem", height: "fit-content" }}
+                          style={{ width: "12rem", height: "fit-content" }}
                         >
                           <a href={pdfInfo.pdfUrl}>
                             <Card.Img variant="top" src={PdfImage} />

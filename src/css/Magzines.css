@@ -9,9 +9,11 @@
 }
 
 .magzine {
+
   display: grid;
-  grid-template-columns: repeat(1, 280px);
+  grid-template-columns: repeat(1, 200px);
   justify-content: space-evenly;
+  align-items: center;
   row-gap: 3rem;
 }
 .Searchmagzine {
