@@ -16,7 +16,6 @@ const fetchMagzinesLogic = createLogic({
       const data = await getDocs(collection(db, "magzines"));
       let magzine = [];
       magzine = data.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
-console.log("Getting magzines =>",magzine)
       dispatch(fetchMagzinesSuccess(magzine));
     } catch (err) {
       dispatch(
