@@ -1,0 +1,1 @@
+export { fetchMagzines } from "./slice";
