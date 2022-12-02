@@ -9,6 +9,7 @@ import Mission from "./components/aboutus/Visionmission";
 import History from "./components/aboutus/History";
 import Footer from "./components/Footer";
 import PhotoGallery from "./components/gallery/PhotoGallery";
+import Team from "./components/team/TeamMemebers";
 
 const App = () => {
   return (
@@ -31,6 +32,9 @@ const App = () => {
         </Routes>
         <Routes>
           <Route path="/gallery/photogallery" element={<PhotoGallery/>}></Route>
+        </Routes>
+        <Routes>
+          <Route path="/team/teammember" element={<Team/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

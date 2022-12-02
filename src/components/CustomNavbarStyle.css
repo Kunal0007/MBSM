@@ -33,16 +33,16 @@
   color: white;
 }
 
-/* .dropdown-menu {
-  display: none;
+.dropdown-menu {
+  background-image: linear-gradient(180deg, #D8381A 3%, #BF0B5E 91%);
 }
 
-.nav-item.dropdown:hover .dropdown-menu {
+/* .nav-item.dropdown:hover .dropdown-menu {
   display: block;
 } */
 
-.dropdown-item a {
-  color: #212529;
+.dropdown-item {
+  color: #fff;
 }
 
 @media only screen and (max-width: 991px) {

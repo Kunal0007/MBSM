@@ -20,6 +20,12 @@
     padding: 3rem 10rem;
 }
 
+@media screen and (max-width : 500px) {
+    .content{
+        padding: 3rem 1rem;
+    }
+}
+
 .intro_head {
     color: #1D92D6;
 }
@@ -37,12 +43,24 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+@media screen and (max-width : 500px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .img1 {
     display: flex;
     justify-content: center;
     margin: 1rem 0;
     border-style: solid;
     border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.img1 img {
+    max-width: 100%;
+    height: auto;
 }
 
 .img2 {
@@ -51,4 +69,10 @@
     margin: 1rem 0;
     border-style: solid;
     border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.img2 img {
+    max-width: 100%;
+    height: auto;
 }
