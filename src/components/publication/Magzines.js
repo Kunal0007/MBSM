@@ -36,7 +36,6 @@ const Magzines = () => {
   }, []);
 
   const onSearch = () => {
-    console.log("Idhar to aa rha hai =>", value);
     dispatch(searchFetch({ value }));
   };
 
