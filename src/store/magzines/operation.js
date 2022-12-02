@@ -1,1 +1,1 @@
-export { fetchMagzines } from "./slice";
+export { fetchMagzines, searchFetch, removeStatus } from "./slice";
