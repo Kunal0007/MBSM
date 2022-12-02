@@ -66,9 +66,6 @@ const CustomNavbar = () => {
               <Nav.Link className="navItem" href="/gallery/photogallery">
                 Photo Gallery
               </Nav.Link>
-              <Nav.Link className="navItem" href="/team/teammember">
-                Our Team
-              </Nav.Link>
               <Nav.Link className="navItem" href="#join">
                 Join MBSM
               </Nav.Link>

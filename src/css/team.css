@@ -1,78 +1,85 @@
 .maint {
-    padding: 3rem 10rem;
+  padding: 3rem 10rem;
 }
 
-@media screen and (max-width : 500px) {
-    .maint {
-        padding: 3rem 1rem;
-    }
+.profilePic {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  object-fit: cover;
+}
+@media screen and (max-width: 500px) {
+  .maint {
+    padding: 3rem 1rem;
+  }
 }
 
 .line {
-    border: 1px solid rgba(99, 115, 147, 0.15);
-    margin-bottom: 1rem;
+  border: 1px solid rgba(99, 115, 147, 0.15);
+  margin-bottom: 1rem;
 }
 
 .team {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 1rem;
-    column-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 1rem;
+  column-gap: 1rem;
 }
 
-@media screen and (max-width : 500px) {
-    .team {
-        flex-direction: column;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-    }
+@media screen and (max-width: 500px) {
+  .team {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
 }
 
-@media screen and (min-width : 500px) and (max-width : 1000px)  {
-    .team {
-        flex-direction: column;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .team {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 }
 
 .profile {
-    display: grid;
-    padding-top: 100px;
-    /* width: 33%; */
-    justify-content: center;
-    position: relative;
+  display: grid;
+  padding-top: 100px;
+  /* width: 33%; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .image {
-    position: absolute;
-    top: 30px;
-    left: 38%;
+  position: absolute;
+  top: 40px;
+  left: 37%;
 }
 
 .details {
-    padding: 50px 50px 30px;
-    background: rgba(237, 237, 243, 0.51);
-    box-shadow: 2px 2px 4px rgba(237, 237, 243, 0.25);
-    border-radius: 5px;
-    text-align: center;
-    width: 315px;
+  padding: 50px 50px 30px;
+  background: rgba(237, 237, 243, 0.51);
+  box-shadow: 2px 2px 4px rgba(237, 237, 243, 0.25);
+  border-radius: 5px;
+  text-align: center;
+  width: 315px;
 }
 
 .name {
-    font-weight: 700;
-    font-size: 1.2rem;
-    line-height: 18px;
-    color: #637393;
-    margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 18px;
+  color: #637393;
+  margin-bottom: 1rem;
 }
 
 .subname {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 12px;
-    color: #637393;
-    margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #637393;
+  margin-bottom: 1rem;
 }

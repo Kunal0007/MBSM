@@ -162,6 +162,7 @@
   background-color: #333333;
   padding: 50px 5%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
