@@ -12,7 +12,6 @@ export default function Slider() {
       <Carousel>
         <Carousel.Item>
           <img
-            height="590px"
             className="d-block w-100"
             src={Sngathan}
             alt="Second slide"
@@ -20,8 +19,7 @@ export default function Slider() {
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            height="590px"
+          <img            
             className="d-block w-100"
             src={Prakashan}
             alt="Second slide"
@@ -29,8 +27,7 @@ export default function Slider() {
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            height="590px"
+          <img            
             className="d-block w-100"
             src={Anusandhan}
             alt="Second slide"
@@ -39,8 +36,7 @@ export default function Slider() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            height="613px"
+            className="d-block w-100"            
             src={img1}
             alt="Second slide"
           />
@@ -48,8 +44,7 @@ export default function Slider() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            height="613px"
+            className="d-block w-100"            
             src={img2}
             alt="Second slide"
           />
