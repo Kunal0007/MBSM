@@ -39,6 +39,7 @@ const Team = () => {
             </div>
           </div>
         </div>
+
         <div className="profile">
           <div className="image">
             <img alt="profile" className="profilePic" src={Hod} />
