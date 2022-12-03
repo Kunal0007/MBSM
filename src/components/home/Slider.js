@@ -11,48 +11,23 @@ export default function Slider() {
     <div>
       <Carousel>
         <Carousel.Item>
-          <img
-            height="590px"
-            className="d-block w-100"
-            src={Sngathan}
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src={Sngathan} alt="Second slide" />
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            height="590px"
-            className="d-block w-100"
-            src={Prakashan}
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src={Prakashan} alt="Second slide" />
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            height="590px"
-            className="d-block w-100"
-            src={Anusandhan}
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src={Anusandhan} alt="Second slide" />
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            height="613px"
-            src={img1}
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src={img1} alt="Second slide" />
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            height="613px"
-            src={img2}
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src={img2} alt="Second slide" />
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
       </Carousel>
