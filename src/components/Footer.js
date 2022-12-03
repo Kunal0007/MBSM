@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="copyRight">
-          <p>© Copyright 2021 Bhartiya Shikshan Mandal. All Rights Reserved</p> <br/>
+          <p>© Copyright 2022 Mharashtra Bhartiya Shikshan Mandal. All Rights Reserved</p> <br/>
           <p>Developed and Designed by <a href='/team/teammember' style={{fontWeight:800,color:"white"}} >PCCOE Web Team</a></p> 
         </div>
       </div>
