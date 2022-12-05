@@ -9,6 +9,7 @@ import Mission from "./components/aboutus/Visionmission";
 import History from "./components/aboutus/History";
 import Footer from "./components/Footer";
 import PhotoGallery from "./components/gallery/PhotoGallery";
+import QuestionPapers from "./screens/publication/QuestionPapers";
 import Team from "./components/team/TeamMemebers";
 
 const App = () => {
@@ -31,10 +32,19 @@ const App = () => {
           <Route path="/aboutus/vision&mission" element={<Mission />}></Route>
         </Routes>
         <Routes>
-          <Route path="/gallery/photogallery" element={<PhotoGallery/>}></Route>
+          <Route
+            path="/gallery/photogallery"
+            element={<PhotoGallery />}
+          ></Route>
         </Routes>
         <Routes>
-          <Route path="/team/teammember" element={<Team/>}></Route>
+          <Route path="/team/teammember" element={<Team />}></Route>
+        </Routes>
+        <Routes>
+          <Route
+            path="/publication/question-papers"
+            element={<QuestionPapers />}
+          ></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
