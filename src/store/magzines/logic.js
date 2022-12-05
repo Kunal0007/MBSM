@@ -47,7 +47,7 @@ const searchFetchLogic = createLogic({
           searchItems.push(rawData[i]);
         }
       }
-      if (searchItems.length != 0) {
+      if (searchItems.length !== 0) {
         dispatch(searchFetchSuccess(searchItems));
       } else {
         dispatch(searchFetchFail("No result found"));

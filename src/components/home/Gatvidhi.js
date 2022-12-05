@@ -40,7 +40,7 @@ export default function Gatvidhi() {
   return (
     <div className="gatvidhiDiv">
       <div className="gatvidhi">
-        <h3>Gatvidhi</h3>
+        <h3>गतिविधि</h3>
         <div className="gatvidhiCardDiv">
           {gatvidhi.map((item, index) => {
             return (

@@ -27,17 +27,15 @@ const Home = () => {
     <div className="home">
       <Slider />
       <div className="intro">
-        <h3 className="title">Bhartiya Shikshan Mandal</h3>
+        <h3 className="title">Maharashtra Bhartiya Shikshan Mandal</h3>
         <p>
-          Bharatiya Shikshan Mandal was founded on the auspicious day of Rama
-          Navami in the year 1969 is working with the objective of national
-          resurgence in the field of education. It aims at evolving National
-          Education Policy, Curriculum, System &Methodology based on integral
-          Bharatiya vision, rooted in its eternal ethos and centered at overall
-          development of the country. A number of educational, Intellectual and
-          experimental activities are being conducted in all parts of the
-          country both at school and higher education levels to actualize this
-          noble mission of reestablishing Bharatiya Education System.
+          भारत स्वतंत्र झाल्या नंतर शिक्षण हे भारतीय राज्य संस्थेकडे हस्तांतरित
+          झाले. भारतीय जनतेच्या शिक्षणासंबंधी अपेक्षा वाढल्या. सामाजिक
+          परिवर्तनाचे साधन म्हणून शिक्षणा कडे पाहण्याची दृष्टी विकसित झाली.
+          शिक्षण हा विषय केवळ शासनाचा, राज्य सत्तेचा विषय नाही. तो शिक्षण
+          क्षेत्रातील काम करणाऱ्या प्रत्येकाचा विषय आहे. प्रत्येकाला या बाबत
+          व्यक्त व्हायचे आहे. याच हेतूने 'भारतीय शिक्षण 'मासिकाचा पहिली पायरी
+          म्हणून प्रारंभ झाला आहे
         </p>
       </div>
       <div className="perks">

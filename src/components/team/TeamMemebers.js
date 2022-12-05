@@ -61,8 +61,8 @@ const Team = () => {
                 alt="socials"
                 src="https://img.icons8.com/ios-glyphs/30/null/github.png"
               />
-            </div>
           </div>
+        </div>
         </div>
         <div className="profile">
           <div className="image">

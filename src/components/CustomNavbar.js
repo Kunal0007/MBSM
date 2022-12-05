@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "../components/CustomNavbarStyle.css";
 
-const CustomNavbar = () => {  
+const CustomNavbar = () => {
 
   return (
     <div>
@@ -28,7 +28,7 @@ const CustomNavbar = () => {
               <Nav.Link className="navItem" href="/">
                 Home
               </Nav.Link>
-              <NavDropdown                                
+              <NavDropdown
                 title="About Us"
                 id="collasible-nav-dropdown"
               >
@@ -42,23 +42,31 @@ const CustomNavbar = () => {
                   Vision & Mission
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown                
-                title="Organiztional Structure"                
+              <NavDropdown
+                title="Organiztional Structure"
                 id="collasible-nav-dropdown"
               >
                 <NavDropdown.Item href="#action/3.1">Executive committee</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown                
-                title="Publication"                
+              <NavDropdown
+                title="Publication"
                 id="collasible-nav-dropdown"
               >
                 <NavDropdown.Item href="/publication/magzines"> Magzines </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/publication/question-papers">
                   Question papers for schools
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Books
-                </NavDropdown.Item>
+                <NavDropdown title="Books" id="collasible-nav-dropdown" style={{"padding": "4px 8px"}}>
+                  <NavDropdown.Item href="/publication/prakashan-books">
+                    Prakashan Books
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/publication/mbsm-books">
+                    MBSM
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/publication/bsm-books">
+                    BSM
+                  </NavDropdown.Item>
+                </NavDropdown>
                 <NavDropdown.Item href="#action/3.3">
                   Research Papers
                 </NavDropdown.Item>
