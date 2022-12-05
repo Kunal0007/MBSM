@@ -15,7 +15,8 @@
   width: 100%;
   padding: 30px 12%;
   display: flex;
- flex-direction: column;
+  flex-direction: column;
+  text-align: center;
 }
 .gatvidhiDiv{
   width: 100%;
@@ -28,7 +29,7 @@
   flex-wrap: wrap;
   width: 100%;
   margin-top: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .cardtext{
   position: absolute;
