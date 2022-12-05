@@ -11,6 +11,9 @@ import Footer from "./components/Footer";
 import PhotoGallery from "./components/gallery/PhotoGallery";
 import QuestionPapers from "./screens/publication/QuestionPapers";
 import Team from "./components/team/TeamMemebers";
+import PrakashanBooks from "./screens/publication/PrakashanBooks";
+import Mbsm from "./screens/publication/Mbsm";
+import Bsm from "./screens/publication/Bsm";
 
 const App = () => {
   return (
@@ -44,6 +47,24 @@ const App = () => {
           <Route
             path="/publication/question-papers"
             element={<QuestionPapers />}
+          ></Route>
+        </Routes>
+        <Routes>
+          <Route
+            path="/publication/prakashan-books"
+            element={<PrakashanBooks />}
+          ></Route>
+        </Routes>
+        <Routes>
+          <Route
+            path="/publication/mbsm-books"
+            element={<Mbsm />}
+          ></Route>
+        </Routes>
+        <Routes>
+          <Route
+            path="/publication/bsm-books"
+            element={<Bsm />}
           ></Route>
         </Routes>
         <Footer />
