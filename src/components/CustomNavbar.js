@@ -53,7 +53,7 @@ const CustomNavbar = () => {
                 id="collasible-nav-dropdown"
               >
                 <NavDropdown.Item href="/publication/magzines"> Magzines </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/publication/question-papers">
                   Question papers for schools
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
