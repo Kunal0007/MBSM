@@ -1,17 +1,11 @@
 import React from "react";
+import banner_vision from "../../assets/images/banner_history-1536x288-1.jpg";
 
 const History = () => {
   return (
     <div className="history">
-      <div>
-      <img
-          src="http://www.bsmbharat.org/wp-content/uploads/2021/11/banner_history-1536x288-1.jpg"
-          class="attachment-full size-full"
-          alt=""
-          loading="lazy"
-          srcset="http://www.bsmbharat.org/wp-content/uploads/2021/11/banner_history-1536x288-1.jpg"
-          sizes="(max-width: 1600px) 100vw, 1600px"
-        />
+      <div className="head_img">
+        <img src={banner_vision} style={{width: '100%' , height: '100%' , objectFit: 'contain'}} alt="banner" />        
       </div>
       <div className="content">
         <div className="history_head">
