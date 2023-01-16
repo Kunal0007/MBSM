@@ -1,18 +1,13 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
+// import Card from "react-bootstrap/Card";
+import banner_vision from "../../assets/images/banner_introduction.jpg";
+import img1 from "../../assets/images/about-us-image-1024x720.jpg";
 
 const Intro = () => {
   return (
     <div>
-      <div className="head_img">
-        <img
-          src="http://www.bsmbharat.org/wp-content/uploads/2021/02/banner_introduction.jpg"
-          class="attachment-full size-full"
-          alt=""
-          loading="lazy"
-          srcset="http://www.bsmbharat.org/wp-content/uploads/2021/02/banner_introduction.jpg 1600w, http://www.bsmbharat.org/wp-content/uploads/2021/02/banner_introduction-1536x288.jpg 1536w, http://www.bsmbharat.org/wp-content/uploads/2021/02/banner_introduction-600x113.jpg 600w"
-          sizes="(max-width: 1600px) 100vw, 1600px"
-        />
+      <div className="head_img">      
+        <img src={banner_vision} style={{width: '100%' , height: '100%' , objectFit: 'contain'}} alt="banner" /> 
       </div>
       <div className="content">
         <div className="intro_head">
@@ -101,7 +96,7 @@ const Intro = () => {
             </Card.Body>
           </Card> */}
         </div>
-        <div className="img1">
+        {/* <div className="img1">
           <img
             src="http://www.bsmbharat.org/wp-content/uploads/2021/10/about_infographic.png"
             class="attachment-large size-large"
@@ -109,14 +104,9 @@ const Intro = () => {
             loading="lazy"
             srcset="http://www.bsmbharat.org/wp-content/uploads/2021/10/about_infographic.png 1000w, http://www.bsmbharat.org/wp-content/uploads/2021/10/about_infographic-600x370.png 600w"
           />
-        </div>
+        </div> */}
         <div className="img2">
-          <img
-            src="http://www.bsmbharat.org/wp-content/uploads/2021/10/about-us-image-1024x720.jpg"
-            class="attachment-large size-large"
-            alt=""
-            loading="lazy"
-          />
+        <img src={img1} style={{width: '100%' , height: '100%' , objectFit: 'contain'}} alt="banner" /> 
         </div>
       </div>
     </div>

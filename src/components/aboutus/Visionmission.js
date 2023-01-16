@@ -1,17 +1,11 @@
 import React from "react";
+import banner_vision from "../../assets/images/banner_vision.jpg";
 
 const Mission = () => {
   return (
     <div className="mission">
-      <div>
-        <img
-          src="http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision.jpg"
-          class="attachment-full size-full"
-          alt=""
-          loading="lazy"
-          srcset="http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision.jpg 1600w, http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision-1536x288.jpg 1536w, http://www.bsmbharat.org/wp-content/uploads/2021/10/banner_vision-600x113.jpg 600w"
-          sizes="(max-width: 1600px) 100vw, 1600px"
-        />
+      <div className="head_img">
+        <img src={banner_vision} style={{width: '100%' , height: '100%' , objectFit: 'contain'}} />        
       </div>
       <div className="content">
         <div className="mission_head">
