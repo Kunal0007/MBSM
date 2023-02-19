@@ -22,7 +22,7 @@ const Team = () => {
           </div>
           <div className="detailst">
             <div className="name">Hemant Selmokar</div>
-            <div className="subname">Faculty Co-Ordinator</div>
+            <div className="subname">Co-Ordinator</div>
             <div className="line"></div>
             <div className="socials">
               <img
