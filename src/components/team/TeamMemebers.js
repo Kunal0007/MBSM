@@ -6,7 +6,7 @@ import Hod from "../../assets/images/Hod.jpg";
 import GaneshSir from "../../assets/images/GaneshSir.jpeg";
 import Abhishek from "../../assets/images/Abhishek1.jpeg";
 import HemantSir from "../../assets/images/HemantSir.jpg";
-
+import Director from "../../assets/images/director-PCCoE.jpg";
 import { Link } from "react-router-dom";
 
 const Team = () => {
@@ -15,14 +15,39 @@ const Team = () => {
       <div className="heading">
         <h1>Team Members</h1>
       </div>
+
       <div className="team">
+        <div className="profile">
+          <div className="image">
+            <img alt="profile" className="profilePic" src={Director} />
+          </div>
+          <div className="detailst">
+            <div className="name">Dr. Govind Kulkarni</div>
+            <div className="subname">Mentor</div>
+            <div className="line"></div>
+            <div className="socials">
+              <img
+                alt="socials"
+                src="https://img.icons8.com/color/30/null/linkedin.png"
+              />
+              <img
+                alt="socials"
+                src="https://img.icons8.com/color/30/null/gmail--v1.png"
+              />
+              <img
+                alt="socials"
+                src="https://img.icons8.com/ios-glyphs/30/null/github.png"
+              />
+            </div>
+          </div>
+        </div>
         <div className="profile">
           <div className="image">
             <img alt="profile" className="profilePic" src={HemantSir} />
           </div>
           <div className="detailst">
             <div className="name">Hemant Selmokar</div>
-            <div className="subname">Co-Ordinator</div>
+            <div className="subname">Mentor</div>
             <div className="line"></div>
             <div className="socials">
               <img
@@ -46,31 +71,7 @@ const Team = () => {
           </div>
           <div className="detailst">
             <div className="name">Dr. K. Rajeswari</div>
-            <div className="subname">Faculty Co-Ordinator</div>
-            <div className="line"></div>
-            <div className="socials">
-              <img
-                alt="socials"
-                src="https://img.icons8.com/color/30/null/linkedin.png"
-              />
-              <img
-                alt="socials"
-                src="https://img.icons8.com/color/30/null/gmail--v1.png"
-              />
-              <img
-                alt="socials"
-                src="https://img.icons8.com/ios-glyphs/30/null/github.png"
-              />
-          </div>
-        </div>
-        </div>
-        <div className="profile">
-          <div className="image">
-            <img alt="profile" className="profilePic" src={GaneshSir} />
-          </div>
-          <div className="detailst">
-            <div className="name">Prof. Ganesh Deshmukh</div>
-            <div className="subname">Faculty Co-Ordinator</div>
+            <div className="subname">Mentor</div>
             <div className="line"></div>
             <div className="socials">
               <img
@@ -88,6 +89,32 @@ const Team = () => {
             </div>
           </div>
         </div>
+        <div className="profile">
+          <div className="image">
+            <img alt="profile" className="profilePic" src={GaneshSir} />
+          </div>
+          <div className="detailst">
+            <div className="name">Prof. Ganesh Deshmukh</div>
+            <div className="subname">Mentor</div>
+            <div className="line"></div>
+            <div className="socials">
+              <img
+                alt="socials"
+                src="https://img.icons8.com/color/30/null/linkedin.png"
+              />
+              <img
+                alt="socials"
+                src="https://img.icons8.com/color/30/null/gmail--v1.png"
+              />
+              <img
+                alt="socials"
+                src="https://img.icons8.com/ios-glyphs/30/null/github.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="webteam">
         <div className="profile">
           <div className="image">
             <img alt="profile" className="profilePic" src={Omkar} />
