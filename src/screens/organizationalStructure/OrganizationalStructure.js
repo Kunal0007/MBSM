@@ -1,5 +1,6 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
+
 export default function OrganizationalStructure() {
   return (
     <div style={{ padding: 30 }}>
