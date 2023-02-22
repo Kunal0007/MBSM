@@ -1,13 +1,7 @@
 .pdfContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.pdf {
-  margin: 20px;
-  overflow: hidden;
-  height: 200px;
-  width: 200px;
+    display: flex;
+    column-gap: 138px;
+    justify-content: center;
+    row-gap: 50px;
+    flex-wrap: wrap;
 }

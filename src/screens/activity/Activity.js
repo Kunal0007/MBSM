@@ -27,13 +27,19 @@ export default function Activity() {
       >
         {data.map((item) => {
           return (
-            <a href={item?.pdfUrl} className = "pdf" target="_blank" rel="noopener noreferrer">
-              <iframe
-                src={item?.pdfUrl}
-                width="200px"
-                height="200px"
-              ></iframe>
-            </a>
+            <div className="pdfs">
+              <a href={item?.pdfUrl} className = "pdf" target="_blank" rel="noopener noreferrer">
+                <iframe
+                  src={item?.pdfUrl}
+                  scrolling="no"
+                  width="200px"
+                  height="230px"
+                  style={{overflow: "hidden"}}
+                  
+                ></iframe>
+              </a>
+            </div>
+            
           );
         })}
       </div>
