@@ -14,6 +14,8 @@ import Team from "./components/team/TeamMemebers";
 import PrakashanBooks from "./screens/publication/PrakashanBooks";
 import Mbsm from "./screens/publication/Mbsm";
 import Bsm from "./screens/publication/Bsm";
+import OrganizationalStructure from "./screens/organizationalStructure/OrganizationalStructure";
+import Activity from "./screens/activity/Activity";
 
 const App = () => {
   return (
@@ -22,50 +24,28 @@ const App = () => {
         <Header />
         <CustomNavbar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/publication/magzines" element={<Magzines />}></Route>
-        </Routes>
-        <Routes>
-          <Route path="/aboutus/history" element={<History />}></Route>
-        </Routes>
-        <Routes>
-          <Route path="/aboutus/introduction" element={<Intro />}></Route>
-        </Routes>
-        <Routes>
-          <Route path="/aboutus/vision&mission" element={<Mission />}></Route>
-        </Routes>
-        <Routes>
-          <Route
-            path="/gallery/photogallery"
-            element={<PhotoGallery />}
-          ></Route>
-        </Routes>
-        <Routes>
-          <Route path="/team/teammember" element={<Team />}></Route>
-        </Routes>
-        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/publication/magzines" element={<Magzines />} />
+          <Route path="/aboutus/history" element={<History />} />
+          <Route path="/aboutus/introduction" element={<Intro />} />
+          <Route path="/aboutus/vision&mission" element={<Mission />} />
+          <Route path="/gallery/photogallery" element={<PhotoGallery />} />
+          <Route path="/team/teammember" element={<Team />} />
           <Route
             path="/publication/question-papers"
             element={<QuestionPapers />}
-          ></Route>
-        </Routes>
-        <Routes>
+          />
           <Route
             path="/publication/prakashan-books"
             element={<PrakashanBooks />}
-          ></Route>
-        </Routes>
-        <Routes>
+          />
+          <Route path="/publication/mbsm-books" element={<Mbsm />} />
+          <Route path="/publication/bsm-books" element={<Bsm />} />
           <Route
-            path="/publication/mbsm-books"
-            element={<Mbsm />}
-          ></Route>
-        </Routes>
-        <Routes>
-          <Route
-            path="/publication/bsm-books"
-            element={<Bsm />}
-          ></Route>
+            path="/organizational-structure"
+            element={<OrganizationalStructure />}
+          />
+          <Route path="/activity" element={<Activity />} />
         </Routes>
         <Footer />
       </BrowserRouter>
