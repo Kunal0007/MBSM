@@ -5,6 +5,7 @@ import "../src/css/Magzines.css";
 import "../src/css/aboutus.css";
 import "../src/css/team.css";
 import "../src/css/Prakashan.css";
+import "../src/css/Activity.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Provider } from "react-redux";
 import store from "./store";
